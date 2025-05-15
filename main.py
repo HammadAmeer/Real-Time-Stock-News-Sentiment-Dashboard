@@ -6,7 +6,7 @@ import plotly.graph_objs as go
 from services import get_news_sentiment
 from services.stocks import get_stock_info, get_stock_history
 
-api_key = st.secrets["NEWSAPI_KEY"]
+# api_key = st.secrets["NEWSAPI_KEY"]
 
 # --- Sidebar ---
 st.sidebar.title("📊 Stock Sentiment Dashboard")
